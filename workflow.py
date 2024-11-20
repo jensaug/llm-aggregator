@@ -5,7 +5,8 @@ from llm import get_completion
 
 def find_search_keyword(user_input):
     userContent = "Lista i fallande ordning de viktigaste nyckelorden (max 3 stycken) i följande fråga: " + user_input
-    completion = get_completion(userContent)
+    #completion = get_completion(userContent)
+    completion = "maskininlärning, team"
     print("Nyckelord i frågeställning:\n", completion)
     return completion
 
